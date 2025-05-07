@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Language</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="m-0 y-0" style=" font-family: 'Poppins', sans-serif;">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+         .two{
+            background: url("https://static.vecteezy.com/system/resources/thumbnails/007/213/032/small/graphics-design-illustration-digital-circuit-with-binary-coded-decimal-diagram-technology-for-background-wallpaper-illustration-free-vector.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 17px;
+            opacity: 0.9;
+         }
+.image-slider{
+    animation: slide 8s linear infinite;
+}
+@keyframes slide {
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-50%);}
+}
+    </style>
+
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+ -->
+
+<header>
+<nav class="navbar fixed w-[100%] top-[0px] flex gap-[14px] md:text-[22px] border-[1px] bg-black text-white p-[10px] rounded-[9px] text-[23px] sm:justify-evenly z-50">
+<ul><li class="hover:underline hover:text-amber-300 hover:transition-all duration-200"><a href="#home">Home</a></li></ul>
+<ul class="relative group">
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200"><a href="#language">Language</a></li>
+<ul class="rounded-[10px] absolute hidden bg-blue-600 text-white text-center p-[10px] group-hover:block">
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200"><a href="#c">C</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#csharp">C#</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#cplus">C++</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#python">Python</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#java">Java</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#javascript">JavaScript</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#go">Go</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#rust">Rust</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#swift">Swift</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#kotlin">Kotlin</a></li>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-200 cursor-pointer"><a href="#php">php</a></li>
+</ul>
+</ul>
+<ul>
+<li class="hover:underline hover:text-amber-300 hover:transition-all duration-150"><a href="blog.html">Blog</a></li>
+</ul>
+<ul class="absolute right-2 top-0.5"><li class="moon text-[32px] text-white cursor-pointer"> <i class="fa-solid fa-moon"></i></li></ul>
+</nav>
+</header>
+<br>
+<br>
+<br>
+
+ <div class="container1 flex flex-col justify-center items-center sm:flex sm:flex-col md:flex-row md:justify-evenly lg:justify-center lg:gap-[70px]" id="home">
+<div class="one w-[300px] h-[250px]">
+    <img src="https://cdn-icons-png.flaticon.com/256/11180/11180563.png" alt="" class="object-cover lg:w-[400px] block mx-auto">
+</div>
+<div class="two w-[380px] mt-[10px] lg:w-[400px]">
+    <h1 class="text-[20px] text-white text-center p-[10px]">Learning to code is an exciting journey, but as a beginner, it can feel overwhelming. With so many programming languages available, choosing where to start can be confusing. Python is great for beginners due to its simplicity and wide range of applications. JavaScript is essential for web development, while C++ and Java are strong choices for software engineering. No matter which language you pick, the key is to start coding and keep learning!</h1>
+</div>
+</div>
+<br>
+<div class="slide overflow-hidden bg-[#f0e4e4] sm:hidden">
+    <div class="image-slider flex gap-[10px] justify-center items-center w-max">
+        <div class="imag1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" class="w-[50px] h-[50px] object-cover mx-2 block"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">C</h1>
+            </div>
+            <div class="imag2">
+            <img src="https://logowik.com/content/uploads/images/911_c_logo.jpg" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">C++</h1>
+            </div>
+            <div class="imag3">
+                <img src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">PYTHON</h1>
+                </div>
+            <div class="imag3">
+            <img src="https://www.sketchappsources.com/resources/source-image/python-logo.png" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">PYTHON</h1>
+            </div>
+            <div class="imag4">
+            <img src="https://cdn.worldvectorlogo.com/logos/java.svg" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">JAVA</h1>
+            </div>
+            <div class="imag5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" class="w-[50px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">JAVASCRIPT</h1>
+            </div>
+            <div class="imag6">
+            <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" class="w-[50px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">GO</h1>
+            </div>
+            <div class="imag7">
+            <img src="https://download.logo.wine/logo/Dart_(programming_language)/Dart_(programming_language)-Logo.wine.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">DART</h1>
+            </div>
+            <div class="imag8">
+            <img src="https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">KOTLIN</h1>
+            </div>
+            <div class="imag9">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">RUST</h1>
+            </div>
+            <div class="imag10">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">PHP</h1>
+            </div>
+            <div class="imag11">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/swift-15-logo-svg-vector.svg" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">SWIFT</h1>
+            </div>
+            <div class="imag12">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" class="w-[80px] h-[60px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">RUBY</h1>
+            </div>
+            <div class="imag13">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png" class="w-[80px] h-[60px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">HTML</h1>
+            </div>
+            <div class="imag14">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" class="w-[80px] h-[60px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">CSS</h1>
+            </div> 
+            <!-- Duplicating Images -->
+            <div class="imag1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" class="w-[50px] h-[50px] object-cover mx-2 block"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">C</h1>
+                </div>
+                <div class="imag2">
+                <img src="https://logowik.com/content/uploads/images/911_c_logo.jpg" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">C++</h1>
+                </div>
+                <div class="imag3">
+                    <img src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">C#</h1>
+                    </div>
+                <div class="imag3">
+                <img src="https://www.sketchappsources.com/resources/source-image/python-logo.png" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">PYTHON</h1>
+                </div>
+                <div class="imag4">
+                <img src="https://cdn.worldvectorlogo.com/logos/java.svg" class="w-[50px] h-[50px] object-cover mx-2 block rounded-[10px]"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">JAVA</h1>
+                </div>
+                <div class="imag5">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" class="w-[50px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">JAVASCRIPT</h1>
+                </div>
+                <div class="imag6">
+                <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" class="w-[50px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">GO</h1>
+                </div>
+                <div class="imag7">
+                <img src="https://download.logo.wine/logo/Dart_(programming_language)/Dart_(programming_language)-Logo.wine.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">DART</h1>
+                </div>
+                <div class="imag8">
+                <img src="https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">KOTLIN</h1>
+                </div>
+                <div class="imag9">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">RUST</h1>
+                </div>
+                <div class="imag10">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">PHP</h1>
+                </div>
+                <div class="imag11">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/swift-15-logo-svg-vector.svg" class="w-[80px] h-[50px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">SWIFT</h1>
+                </div>
+                <div class="imag12">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" class="w-[80px] h-[60px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">RUBY</h1>
+                </div>
+                <div class="imag13">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png" class="w-[80px] h-[60px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">HTML</h1>
+                </div>
+                <div class="imag14">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" class="w-[80px] h-[60px] object-cover rounded-[10px] block mx-auto"><h1 class="text-white border-[1px] bg-red-500 text-center font-medium border-red-500 text-[20px] rounded-[4px]">CSS</h1>
+                </div> 
+    </div>
+</div>
+
+<br>
+<!-- Lnaguage Details Starts From Here -->
+<section id="language">
+<br>
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="c">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText text-center p-[6px] md:text-[22px]">The C programming language was created in 1972 by <a href="#" class="underline text-blue-500">Dennis Ritchie</a> at Bell Laboratories in the USA. It was mainly designed to build operating systems, and the famous Unix operating system was written in C. C is used to create software, games, and control systems for electronic devices. It is a very fast language and gives programmers direct control over computer memory. Because of this power and speed, C is still used in system programming and embedded systems. Many modern languages like C++, Java, and even Python were influenced by C. It is called the "mother" of modern programming languages. Learning C helps to understand the core working of computers. That’s why many programmers start their journey with C to build a strong foundation. Even today, C remains important in fields like operating systems, compilers, and hardware programming.</h1>
+    </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="csharp">
+    <img src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText1 text-center p-[6px] md:text-[22px]">The C# programming language was created in 2000 by Microsoft. Anders Hejlsberg led the team that developed C#. It was designed as part of Microsoft's .NET framework for building Windows applications. C# is used to develop desktop software, web applications, and mobile apps. It is also popular in game development, especially with the Unity game engine. C# combines the power of C++ with the simplicity of modern languages. It has features like automatic memory management and strong security. Many large companies use C# for enterprise-level applications. Learning C# helps programmers build apps that run smoothly on Windows and beyond. Today, C# remains a powerful and versatile language in the software industry.</h1>
+    </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="cplus">
+    <img src="https://cdn-icons-png.flaticon.com/128/6132/6132222.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText2 text-center p-[6px] md:text-[22px]">The C++ programming language was created in 1985 by <a href="#" class="text-blue-600 underline font-semibold">Bjarne Stroustrup</a>  in Denmark. It was developed as an extension of the C language with added support for object-oriented programming. C++ is widely used to build high-performance software like games, operating systems, and browsers. It is the core language behind powerful tools like Adobe products and parts of Google Chrome. C++ offers both low-level memory control and high-level features, making it very flexible. It is known for its speed and efficiency, which is why it is used in system programming and real-time applications. Many modern game engines and large-scale applications are built with C++. Learning C++ helps programmers understand both system-level and object-oriented programming concepts. It also forms the base for learning other languages like Java and C#. Even today, C++ remains essential in fields like game development, finance.</h1>
+    </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="python">
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText3 text-center p-[6px] md:text-[22px]">The Python programming language was created in 1991 by <a href="#" class="underline font-semibold text-blue-600">Guido van Rossum</a> from the Netherlands. It was designed to be easy to read and write, using simple English-like syntax. Python is widely used in web development, data science, machine learning, and automation. Popular platforms like YouTube, Instagram, and Dropbox use Python in their systems. It has powerful libraries like NumPy, Pandas, and TensorFlow that make complex tasks easier. Python is a high-level language but also very beginner-friendly, which is why many start learning programming with Python. It supports multiple programming styles, including object-oriented and functional programming. Python is known for its versatility, running on websites, apps, data analysis tools, and even robots. Learning Python opens doors to many fields like AI, finance, and scientific research. Today, Python remains one of the most in-demand and fastest-growing languages in the tech world.</h1>
+    </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="java">
+    <img src="https://cdn-icons-png.flaticon.com/128/919/919854.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText4 text-center p-[6px] md:text-[22px]">The Java programming language was created in 1995 by <a href="#" class="text-blue-700 underline font-semibold">James Gosling</a> at Sun Microsystems. It was designed with the idea of "write once, run anywhere," meaning Java programs can run on any device. Java is widely used for building mobile apps, especially Android apps, as well as web applications and enterprise software. Popular platforms like LinkedIn, Netflix, and many banking systems are built with Java. It is an object-oriented language known for its stability, security, and scalability. Java runs on the Java Virtual Machine (JVM), which allows it to work on different operating systems. It has powerful frameworks like Spring and Hibernate that make development faster and easier. Many large companies prefer Java for their backend systems because of its performance and reliability. Learning Java helps programmers build strong coding skills and understand object-oriented concepts deeply. Even today, Java remains one of the top choices in software development worldwide.</h1>
+    </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="javascript">
+    <img src="https://cdn-icons-png.flaticon.com/128/15484/15484259.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText5 text-center p-[6px] md:text-[22px]">The JavaScript programming language was created in 1995 by <a href="#" class="text-blue-700 underline font-semibold">Brendan Eich</a> at Netscape. It was originally designed to make web pages interactive and dynamic. Today, JavaScript is used not only in web development but also in building mobile apps, servers, and even games. Popular platforms like Facebook, Twitter, and Gmail rely heavily on JavaScript. It runs directly in the browser, allowing real-time updates without reloading the page. JavaScript has powerful frameworks like React, Angular, and Vue that make building modern websites easier. It supports multiple programming styles, including object-oriented and functional programming. Learning JavaScript is essential for anyone who wants to become a web developer. It is known for its flexibility, speed, and huge community support. Today, JavaScript remains one of the most popular and in-demand programming languages in the world.</h1>
+    </div>
+</div> 
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="go">
+    <img src="https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText6 text-center p-[6px] md:text-[22px]">The Go programming language, also known as Golang, was created in 2009 by <a href="#" class="text-blue-700 underline font-semibold">Robert Griesemer</a> Rob Pike, and Ken Thompson at Google. It was designed to make coding simpler, faster, and more efficient, especially for modern computing needs. Go is widely used to build web servers, cloud services, and networking tools. Big companies like Google, Uber, Dropbox, and Netflix use Go in their backend systems. It is known for its speed, strong concurrency support, and simple syntax. Go has built-in features for handling multiple tasks at the same time, making it great for scalable applications. It compiles directly to machine code, which gives it high performance like C or C++. Learning Go helps programmers write clean, fast, and reliable software. It has a growing community and is often used in DevOps, microservices, and cloud platforms. Today, Go is rising as a favorite language in system programming and backend development.</h1>
+    </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="rust">
+    <img src="https://logos-world.net/wp-content/uploads/2021/02/Rust-Emblem.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText7 text-center p-[6px] md:text-[22px]">The Rust programming language was created in 2010 by <a href="#" class="text-blue-700 underline font-semibold">Graydon Hoare</a> at Mozilla. It was designed to provide high performance like C++ but with stronger safety and memory management. Rust is widely used in system programming, game engines, web assembly, and blockchain projects. Big companies like Microsoft, Amazon, and Dropbox use Rust in their systems for its reliability. It prevents common bugs like null pointer errors and data races, making code more secure. Rust offers speed, safety, and concurrency without sacrificing performance. It is loved by developers for its powerful features and strict compiler that catches mistakes early. Learning Rust helps programmers build fast, safe, and efficient applications. It is often chosen for building next-generation tools and performance-critical software. Today, Rust is rising as one of the most loved and respected languages in the tech industry.</h1>
+    </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+        <div class="cOne w-[200px] h-[150px]" id="swift">
+        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968371.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+        </div>
+        <div class="ctwo">
+        <h1 class="codinText8 text-center p-[6px] md:text-[22px]">The Swift programming language was created by Apple in 2014, led by Chris Lattner. It was designed to replace Objective-C and make coding for Apple platforms faster, safer, and easier. Swift is mainly used to build iOS apps, macOS software, watchOS, and tvOS applications. Popular apps like Instagram, Airbnb, and LinkedIn’s iOS versions are built using Swift. It is known for its clean syntax, safety features, and high performance. Swift prevents many common coding mistakes, making apps more stable and secure. It supports modern programming features like optionals, closures, and generics. Learning Swift is essential for anyone who wants to develop apps for iPhones, iPads, and Macs. It is backed by Apple and has a growing community with regular updates. Today, Swift is the top choice for mobile app development in the Apple ecosystem.</h1>
+        </div>
+</div> 
+<br>
+<div class="conta flex flex-col justify-center items-center">
+        <div class="cOne w-[200px] h-[150px]" id="kotlin">
+        <img src="https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+        </div>
+        <div class="ctwo">
+        <h1 class="codinText9 text-center p-[6px] md:text-[22px]">The Kotlin programming language was created by JetBrains and officially released in 2011. In 2017, Google announced Kotlin as an official language for Android app development. Kotlin is mainly used to build Android apps, server-side applications, and web development projects. Popular apps like Pinterest, Coursera, and Trello are built using Kotlin. It is known for its concise syntax, safety features, and full interoperability with Java. Kotlin reduces common coding errors and makes app development faster and smoother. It supports both object-oriented and functional programming styles. Learning Kotlin is essential for modern Android developers who want to build powerful and efficient apps. It has strong support from Google and a rapidly growing developer community. Today, Kotlin is considered the future of Android development and a top choice for many mobile projects.
+        </h1>
+        </div>
+</div> 
+
+<div class="conta flex flex-col justify-center items-center">
+    <div class="cOne w-[200px] h-[150px]" id="php">
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png" alt="" class="w-[120px] h-[120px] object-cover block mx-auto">
+    </div>
+    <div class="ctwo">
+    <h1 class="codinText10 text-center p-[6px] md:text-[22px]">The PHP programming language was created in 1994 by <a href="#" class="text-blue-700 underline font-semibold">Rasmus Lerdorf.</a> Originally designed for creating dynamic web pages, PHP is now one of the most popular languages for server-side web development. Websites like Facebook, WordPress, and Wikipedia rely on PHP for their backend systems. PHP is known for its simplicity, speed, and flexibility in web development. It integrates well with databases like MySQL, making it ideal for dynamic, data-driven websites. PHP supports object-oriented programming and has a rich set of built-in functions. It is widely used in building content management systems (CMS), e-commerce sites, and web applications. Learning PHP is essential for web developers who want to work on dynamic websites and server-side logic. PHP has a large community and many open-source frameworks like Laravel and Symfony. Despite competition from newer languages, PHP continues to be a dominant force in web development.
+    </h1>
+    </div>
+</div> 
+</section>
+
+
+<br>
+<br>
+<footer class="foter border-[1px] w-[100%] bg-[#1d3557]">
+<div class="mainContainer flex flex-col justify-center items-center md:gap-[30px] text-center lg:flex-row">
+<div class="divone">
+<li class="list-none text-[20px] hover:text-amber-400 transition-all duration-150 hover:underline text-gray-400"><a href="#home">Home</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#language">Language</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#c">C</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#charp">C#</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#cplus">C++</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#java">JAVA</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#javascript">JAVASCRIPT</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#python">PYTHON</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#kotlin">KOTLIN</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#php">PHP</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#swift">SWIFT</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#rust">RUST</a></li>
+<li class="list-none text-[20px] hover:underline text-gray-400 hover:hover:text-amber-400 transition-all duration-150"><a href="#go">GO</a></li>
+</div>
+<div class="divtwo md:w-[500px]">
+<h1 class="text-center text-[18px] p-[10px] text-white lg:text-[22px]">If you want to stay ahead of the curve and keep up with current market trends, make sure to check out our blog posts. We regularly share insights on trending AI tools and technologies, helping you stay informed.</h1>
+</div>
+<div class="three">
+    <h1 class="social text-[27px] text-amber-300">Follow Us</h1>
+    <div class="items flex justify-center items-center gap-[10px] lg:gap-[20px]">
+        <i class="fa-brands fa-facebook border-[1px] p-[12px] hover:bg-white hover:text-blue-600 rounded-[40px] text-[40px] text-white cursor-pointer transition-all duration-200"></i>
+        <i class="fa-brands fa-x-twitter border-[1px] p-[12px] hover:bg-white hover:text-black rounded-[40px] text-[40px] text-white cursor-pointer transition-all duration-200"></i>
+        <i class="fa-brands fa-instagram border-[1px] p-[12px] hover:bg-white hover:text-black rounded-[40px] text-[40px] text-white cursor-pointer transition-all duration-200"></i>
+        <i class="fa-brands fa-reddit-alien border-[1px] p-[12px] hover:bg-white hover:text-black rounded-[40px] text-[40px] text-white cursor-pointer transition-all duration-200"></i>
+    </div>
+</div>
+</div>
+<h1 class="text-center text-[22px] text-gray-300">All Rights © reservs to . 2025</h1>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
